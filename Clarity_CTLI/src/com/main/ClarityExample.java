@@ -44,7 +44,7 @@ public class ClarityExample {
 		
 		
 		
-		driver.get("https://claritycloudprod:8443/");
+		driver.get("URL");
 		driver.manage().window().maximize();
 		WebDriverWait wait = new WebDriverWait(driver, 30);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
